@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proxmox VE Loong64 Port</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<div class="main_body">
+			<div class="content intro">
+			<header>
+				Proxmox VE Loong64 Port
+			</header>
+			<div class="about">
+				Community-maintained, upstream-facing LoongArch port of Proxmox VE
+			</div>
+			</div>
+			<main>
+				<div class="content">
+					<h1>Download</h1>
+					<div class="card download_card">
+						<code>proxmox-ve_9.2-1-loong64_20260908.iso</code>
+						<div>
+							<a class="button" href="https://pve.loongfans.cn/iso/proxmox-ve_9.2-1-loong64_20260908.iso">ISO</a>
+							<a class="button" href="https://pve.loongfans.cn/iso/proxmox-ve_9.2-1-loong64_20260908.iso.sha256">SHA256</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<h1>Links</h1>
+					<a class="button" href="https://github.com/pve-loong64-port">GitHub Organization</a>
+					<a class="button" href="https://t.me/pve_loong64_repomon">Package Updates</a>
+					<p>Proxmox: <a href="https://proxmox.com">https://proxmox.com</a></p>
+					<p>
+					Proxmox Git Repositories: <a href="https://git.proxmox.com">https://git.proxmox.com</a>
+					</p>
+					<p>
+					Official Proxmox VE Documentation: <a href="https://pve.proxmox.com/pve-docs/">https://pve.proxmox.com/pve-docs</a>
+					</p>
+					<p>
+					NOTE: LoongArch-specific details are missing in the official
+					documentation. We recommend reading the local documentation
+					included in your Proxmox VE installation at
+					<code>https://&lt;YOUR_PVE_ADDRESS&gt;/pve-docs/index.html</code>
+					</p>
+				</div>
+				<div class="content">
+					<h1>Support</h1>
+					<p>
+					Proxmox VE Loong64 Port has been tested working on Loongson 2K3000,
+					3A6000, 3C6000/S, 3C6000/D, and 3C6000/Q.
+					</p>
+					<p>
+					Known Issues:
+					<ul>
+						<li>
+							Running multiple virtual machines each with many
+							cores (&ge; 32 cores) under heavy loads may cause
+							virtual machines to hang.
+						</li>
+					</ul>
+					</p>
+					<p>
+					If you encountered any bugs or issues, please contact
+					<code>wukaiyang [at] loongfans.cn</code>
+					</p>
+				</div>
+			</main>
+		</div>
+		<footer>
+			Copyright © 2024-2026
+			<a href="https://loongfans.cn">Loongson Hobbyists' Community</a>
+			<a href="https://beian.miit.gov.cn/">鄂ICP备2026029618号-2</a>
+		</footer>
+	</body>
+</html>
